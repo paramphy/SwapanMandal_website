@@ -1,20 +1,21 @@
 ---
 layout: page
 title: Lab Members
-permalink: /lab_members/
+permalink: /labmembers/
 description: Name and details of past and present Lab members.
 nav: true
 nav_order: 1
-display_categories: [work, fun]
+display_categories: [Currently working, Past scholars] 
 horizontal: false
 ---
-<!-- pages/lab_members.md -->
+
+<!-- pages/labmembers.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- assign categorized_projects = site.labmembers | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
