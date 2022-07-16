@@ -6,12 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Swapan
 middle_name: Kumar
 last_name: Mandal
-email: parameshchandra28@gmail.com
+email: swapankumar.mandal@visva-bharati.ac.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Maintained by <a href="https://paramphy.github.io/param/" target="_blank">Paramesh Chandra</a>
 keywords:  jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -120,6 +120,7 @@ collections:
     output: true
     permalink: /labmembers/:path/
 
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5
 
 # -----------------------------------------------------------------------------
@@ -173,7 +174,7 @@ defaults:
   - scope:
       path: "assets/**/*.*"
     values:
-      sitemap: false
+      sitemap: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier

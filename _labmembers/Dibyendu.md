@@ -1,24 +1,23 @@
 ---
 layout: page
-title: Paramesh Chandra
-author: [Chandra,Paramesh]
-description: Perovskite solar cells
-img: assets/img/param.jpg
-importance: 1
+title: Dibyendu Majhee
+description: 
+img: assets/img/2.jpg
+importance: 3
 category: Currently working
-working_description: Our research work is focused on reducing lead toxicity and increasing the stability of perovskite solar cells. 
-contactno: +91-9007869662
-email: parameshchandra28@gmail.com
-altmail: parameshchandra.rs@visva-bharati.ac.in
-orcid_id: 0000-0002-2408-0493
-scholar_userid: UAL4EEkAAAAJ
-publons_id: 515151
-research_gate_profile: Paramesh-Chandra
-bib_file: param
+working_description: 
+contactno: 
+email: 
+altmail: 
+orcid_id: 
+scholar_userid: 
+publons_id: 
+research_gate_profile: 
+bib_file: dibyendu
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/param.jpg" title="Paramesh " class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2.jpg" title="Dibyendu" class="img-fluid rounded z-depth-1" %}
     </div>
      <div class="col-sm mt-3 mt-md-0">
 
@@ -61,6 +60,7 @@ bib_file: param
     </div>
 </div>
 </div>
+
 
 <div class="publications">
 <h2>Publications</h2>

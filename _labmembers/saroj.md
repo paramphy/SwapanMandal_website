@@ -1,24 +1,23 @@
 ---
 layout: page
-title: Paramesh Chandra
-author: [Chandra,Paramesh]
-description: Perovskite solar cells
-img: assets/img/param.jpg
-importance: 1
+title: Saroj Saha
+description: Spin Crossover Materials
+img: assets/img/1.jpg
+importance: 2
 category: Currently working
-working_description: Our research work is focused on reducing lead toxicity and increasing the stability of perovskite solar cells. 
-contactno: +91-9007869662
-email: parameshchandra28@gmail.com
-altmail: parameshchandra.rs@visva-bharati.ac.in
-orcid_id: 0000-0002-2408-0493
-scholar_userid: UAL4EEkAAAAJ
-publons_id: 515151
-research_gate_profile: Paramesh-Chandra
-bib_file: param
+working_description:  
+contactno: 
+email: sahasaroj0@gmail.com
+altmail: 
+orcid_id: 0000-0001-6423-0022
+scholar_userid: 
+publons_id: 
+research_gate_profile: Saroj-Saha
+bib_file: saroj
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/param.jpg" title="Paramesh " class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/1.jpg" title="Paramesh " class="img-fluid rounded z-depth-1" %}
     </div>
      <div class="col-sm mt-3 mt-md-0">
 
@@ -66,5 +65,4 @@ bib_file: param
 <h2>Publications</h2>
 {% bibliography -f {{page.bib_file}} %}
 </div>
-
 
