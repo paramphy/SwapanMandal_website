@@ -20,6 +20,21 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {%- if page.email -%}
+              <a href="{{ page.contactno | encode_email }}" title="contact no."><i class="fas fa-envelope"></i></a>
+            {% endif %}
+            {%- if page.email -%}
+              <a href="mailto:{{ page.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+            {% endif %}
+            {%- if page.orcid_id -%}
+              <a href="https://orcid.org/{{ page.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+            {% endif %}
+            {%- if page.scholar_userid -%}
+              <a href="https://scholar.google.com/citations?user={{ page.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            {% endif %}
+            {%- if page.research_gate_profile -%}
+              <a href="https://www.researchgate.net/profile/{{page.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+            {% endif %}
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">
