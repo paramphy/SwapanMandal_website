@@ -1,19 +1,20 @@
 ---
 layout: page
-title: Saroj Saha
+title: Chaitali Mondal
+author: [Chandra,Paramesh]
 description: Spin Crossover Materials
-img: assets/img/1.jpg
-importance: 2
-category: Currently working
-working_description:  
+img: assets/img/chaitali.jpg
+importance: 1
+category: Past scholars
+working_description: 
 contactno: 
-email: sahasaroj0@gmail.com
+email: 
 altmail: 
-orcid_id: 0000-0001-6423-0022
+orcid_id: 
 scholar_userid: 
 publons_id: 
-research_gate_profile: Saroj-Saha
-bib_file: saroj
+research_gate_profile: 
+bib_file: chaitali
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -65,4 +66,5 @@ bib_file: saroj
 <h2>Publications</h2>
 {% bibliography -f {{page.bib_file}} %}
 </div>
+
 
