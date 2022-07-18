@@ -2,13 +2,13 @@
 layout: page
 title: Saroj Saha
 description: Spin Crossover Materials
-img: assets/img/1.jpg
+img: assets/img/saroj.jpg
 importance: 2
 category: Currently working
-working_description:  
-contactno: 
+working_description: Thin film property study of Spin Crossover (SCO) complex. Metal dilution effect study on spin crossover complex. Development of methanol sensor study.  Development and fabrication of useful spin-based memory devices. 
+contactno: 9126106273 / 7908233533
 email: sahasaroj0@gmail.com
-altmail: 
+altmail: sarojsaha.rs@visva-bharati.ac.in
 orcid_id: 0000-0001-6423-0022
 scholar_userid: 
 publons_id: 

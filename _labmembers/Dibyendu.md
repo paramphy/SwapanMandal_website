@@ -2,17 +2,17 @@
 layout: page
 title: Dibyendu Majhee
 description: 
-img: assets/img/2.jpg
+img: assets/img/d.jpg
 importance: 3
 category: Currently working
 working_description: 
-contactno: 
-email: 
+contactno: 9932148234
+email: dibyendumajee1999@gmail.com
 altmail: 
-orcid_id: 
+orcid_id: 0000-0002-9503-9754
 scholar_userid: 
 publons_id: 
-research_gate_profile: 
+research_gate_profile: Dibyendu-Majee 
 bib_file: dibyendu
 ---
 <div class="row">
