@@ -49,7 +49,7 @@ bib_file: saroj
       <div>
         {%- if site.orcid_id -%}
             <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
-            {% endif %}
+        {% endif %}
       {%- if page.scholar_userid -%}
           <a href="https://scholar.google.com/citations?user={{ page.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       {% endif %}
