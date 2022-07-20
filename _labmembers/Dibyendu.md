@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dibyendu Majhee
+title: Dibyendu Majee
 description: 
 img: assets/img/d.jpg
 importance: 3
@@ -19,7 +19,7 @@ bib_file: dibyendu
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path=page.img title=page.title class="img-fluid rounded z-depth-1" %}
     </div>
-     <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
 
      <div>
         {%- if page.contactno -%}
