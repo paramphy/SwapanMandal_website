@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-07-25 09:27:00-0400
 inline: true
 ---
 
-A simple news announcement system.
+NUP- i2i Familiarization Workshop on Nanofabrication and Characterizations, Event Date: 10th to 12th August 2022. [Cleck here more.](http://inup.iitkgp.ac.in/inup/index.php)
