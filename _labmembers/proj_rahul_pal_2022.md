@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rahul Pal
-description: 
+description: M.Sc. 2023
 img: assets/project_students/Rahul_pal/rahul_img.jpg
 importance: 1
 category: Project students
@@ -12,6 +12,7 @@ email: rahulpalscience2000@gmail.com
 pdf: ../../assets/project_students/Rahul_pal/project_rahul_2022.pdf
 word: ../../assets/project_students/Rahul_pal/word_rahul_2022.docx
 presentation: ../../assets/project_students/Rahul_pal/presentation_rahul_2022.pptx
+bio: ../../assets/project_students/Rahul_pal/rahul_bio.docx
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -62,7 +63,8 @@ presentation: ../../assets/project_students/Rahul_pal/presentation_rahul_2022.pp
 {%- if page.presentation %}
     <a href="{{ page.presentation }}" class="btn btn-sm z-depth-0" role="button">Presentation</a>
 {%- endif %}
+{%- if page.bio %}
+    <a href="{{ page.bio }}" class="btn btn-sm z-depth-0" role="button">Bio</a>
+{%- endif %}
 </div>
 </div>
-
-
