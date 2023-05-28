@@ -5,7 +5,7 @@ permalink: /labmembers/
 description: Name and details of past and present Lab members.
 nav: true
 nav_order: 1
-display_categories: [Currently working, Past scholars] 
+display_categories: [Currently working, Past scholars, Project students] 
 horizontal: false
 ---
 
